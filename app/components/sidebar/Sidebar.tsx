@@ -1,9 +1,15 @@
 'use client';
 
+import styled from "styled-components";
+
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <SidebarStyled>Sidebar</SidebarStyled>
   )
 }
+
+const SidebarStyled = styled.nav`
+    display: flex;
+`
 
 export default Sidebar
